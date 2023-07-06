@@ -63,7 +63,7 @@
 }
 .about-section h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     padding: 20px;
 }
 .about-content h3{
@@ -82,7 +82,7 @@
     height: 500px;
 }
 .services > h1{
-    font-size: 55px;
+    font-size: 45px;
     color: #fff;
     text-align: center;
     padding-top: 30px;
@@ -96,14 +96,43 @@
 
 .service-box{
     width: 250px;
-    height: 320px;
+    height: 325px;
     color: #fff;
     background-color: rgba(0, 0, 0,.5);
     text-align: center;
     padding: 20px;
     box-shadow: 0px 0px 17px 9px #333;
-    border-radius: 2px;
+    border-radius: 5px;
+    line-height: 22px;
+}
+.service-box > h1{
+    padding: 10px;
 }
 .icon{
     width: 70px;
+}
+footer{
+    background-color: #0f0f0f;
+    height: 400px;
+}
+.contact-container{
+    display: flex;
+    background-color: #0f0f0f;
+    color: #fff;
+    width: 80%;
+    justify-content: space-around;
+    height: 350px;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+    margin: 0 auto;
+}
+.contact > p {
+    margin-top: 10px;
+    line-height: 25px;
+}
+.copy{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
 }
